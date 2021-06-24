@@ -1,0 +1,12 @@
+<div ng-repeat="qa in interview">
+	<div ng-switch on="boxType">
+		<div ng-switch-when="interview">
+		    <p><strong>{{qa.question}}</strong></p>
+		    <p ng-repeat="answer in qa.answer" ng-bind-html="answer"></p>
+		    <!-- <audio ng-src="{{getAudioSrc(question.audio)}}"></audio> -->
+		</div>
+		<div ng-switch-when="bio">
+			<p ng-bind-html="qa.answer"></p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,18 @@
+{
+  "name": "case-studies",
+  "version": "1.0.0",
+  "description": "bips case studies",
+  "main": "index.js",
+  "author": "Chris Metivier",
+  "repository": "http://manticore.uncg.edu/courses/bips.git",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0"
+  }
+}

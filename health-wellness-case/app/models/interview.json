@@ -1,0 +1,102 @@
+{
+    "fit": [{
+        "question": "So, Fran, I know that you prioritize fitness and health in your life—you make time for it every day; you are very motivated.   I’m wondering, what keeps you on track?",
+        "answer": ["Well, that’s a good question.  I’ve always been active in sports.  As a kid, I played field hockey, basketball, went to sports camps.  I played softball in college, and I always liked running.  I can’t imagine my life without sports.  I also know how important a healthy diet is. It might not be easy, but it is so, so important to prioritize clean-eating. It’s a waste to exercise and spend time trying to build muscle if you aren’t using the right fuel."]
+    }, {
+        "question": "So how do you combat the schedule of an 8:30–5:00 job, being at a desk all day?  Any tips?  ",
+        "answer": ["Well, I pack all my meals.   That’s one thing.  I get up early and run, and three nights a week I go to yoga and swim.  I’m training for a half-Ironman—that keeps me motivated.  Also, I don’t have kids.  But that is no excuse!  I get tired of hearing about how kids make it hard to eat right, hard to exercise.  I mean, I make sacrifices, too.  For example, sleep!  I feel like my colleagues are always making excuses. They don’t seem to see what is really important."]
+    }, {
+        "question": "So when you look at our work culture, are there things you could imagine doing that might make a difference for other people?",
+        "answer": ["Well, I’m really motivated to get up early and run, but other people aren’t. We could make it so people had to participate in classes to see what a difference exercise and nutrition make. Or maybe we need some incentive programs to reward certain behaviors. But also, flexible schedules would make it possible for people to work out before work or get to a class after work."]
+    }, {
+        "question": "And what about those people with kids?",
+        "answer": ["I mean, I don’t know how this would work, but what about babysitting or something?  They have to prioritize their health. They have to see that this is something that’s important.  In terms of incentives, we could track exercise on a website, and then give a prize for most improvement, for example.  Or we could get a reduction in our portion of health care costs if we prove that we went to the gym twice a week.  Things like that."]
+    }, {
+        "question": "Ok. Can you imagine any unintended consequences from those ideas?",
+        "answer": ["Well, someone would have to track the results.  And plan the goals and the rewards.  Or organize the baby-sitters.  Things like that.  Labor costs for someone new or lost productivity if it is someone who already works here."]
+    }, {
+        "question": "How about your idea for flexible work days?  What would we have to give up for that to succeed?  Can you envision any unintended consequences around that?",
+        "answer": ["Well, from Chris’ perspective, he might worry about reduced productivity.  The phone lines might not be covered—reception might not be covered all the time.  There might be costs we are not predicting."]
+    }, {
+        "question": "So we are looking at a cost-benefit analysis, then.  What we lose in worker time, versus what we gain in improved health outcomes.  ",
+        "answer": ["Exactly."]
+    }, {
+        "question": "What would you say to a co-worker who doesn’t want to participate?  ",
+        "answer": ["I mean, it’s really hard for me to get inside the head of someone who doesn’t care about his or her own health.  Think of their kids and families.  I seriously don’t get it.  I think a lot of people are just lazy."]
+    }, {
+        "question": "So you see this as a personal weakness, not a structural problem?",
+        "answer": ["Well, yeah.  I mean, I make this a priority, so clearly they could too.  I don’t want to pick up the burden for someone else and have to pay higher health insurance premiums when this is clearly not my problem.  "]
+    }, {
+        "question": "But are you interested in working toward a community goal so that other people can benefit?  I mean, it would help you in the end too, right?",
+        "answer": ["Yeah, I am.  We just have to figure out what to do.  I’ll do my part."]
+    }, {
+        "question": "Even if that means changing some of your attitudes towards other people?",
+        "answer": ["Well, yeah. I guess so. Although, I really think that if people just see how important their health is, they’ll want to do these things."]
+    }, {
+        "question": "Ok, thanks for talking, Fran.",
+        "answer": ["Thank you."]
+    }],
+
+    "critical": [{
+        "question": "So, Carl, I got the sense from our meeting that you are not really in support of the SHIP shape program.   Is that correct?",
+        "answer": ["Well, yeah, it just seems kind of “Big Brother,” if you know what I mean."]
+    }, {
+        "question": "So from your perspective, your employer shouldn’t be involved in your health status?",
+        "answer": ["That’s right. I don’t think it’s any of their business."]
+    }, {
+        "question": "What would you say to the argument that they pay higher health insurance premiums if employees are less healthy, so they are incentivized to prioritize health?",
+        "answer": ["Well frankly, I don’t think we should be required to have health insurance.  Again, big government getting in my business."]
+    }, {
+        "question": "I see.  Well, given that we have this directive from Chris, is there anything you can think of that you would support here in terms of wellness plans?",
+        "answer": ["No, not really.  I think we should be given raises instead of spending 50K on health incentives and so on.  But that isn’t going to happen.  I mean, the only way I might participate is if there was some sort of financial reward in place.  That’s pretty much the only thing that would motivate me."]
+    }, {
+        "question": "OK.  I get the picture.  Thanks for talking.",
+        "answer": ["You bet."]
+    }],
+
+    "henrietta": [{
+        "question": "Hi, Henrietta, thanks for talking.  I’m curious what your perspective is on the SHIP shape initiative.",
+        "answer": ["I’m supportive, although I want to see how it evolves.  Of course, we have to make sure that no personal data is being shared—those types of things—but in terms of having healthier employees, I think it is positive."]
+    }, {
+        "question": "As the HR Rep, you have a lot of personal contact with employees.  I know that this is confidential and you can’t name names, but can you share some of the concerns that you have dealt with over the years?",
+        "answer": ["Well, I have worked with a lot of families that have had sick loved ones.  Dealing with insurance—deductibles, co-pays, that sort of the thing—it’s very stressful on families.  A lot of people know they have a deductible but don’t understand how co-pays work.  Or they go to the ER when they should have gone to their primary provider a few days earlier.  Then they get hit with a huge bill.  I also deal with disability cases.  Those are really hard on families.  So I think anything we can do that is preventive, as long as it doesn’t cause more injuries, would be good. I do think we need to look into the legal considerations too.  You don’t see that disclaimer about exercise under the consultation of a doctor for nothing!"]
+    }, {
+        "question": "That’s a good point, and we should include that on our cost-benefit analysis.",
+        "answer": ["Right.  The other thing I want to say is that, as an HR Rep, I really see people struggling with work-life balance.  We have people caring for small children, their elderly parents, a sick spouse at home.  We have single parents and people who work two jobs.  It’s impossible to encompass all of the scenarios.  That’s why I think that anything we do has to be on company time.  Because people’s lives are bursting at the seams.  That’s what I see day to day.  And it makes sense that it’s hard to take care of themselves when they themselves are caregivers."]
+    }, {
+        "question": "So you are saying to look at the whole picture of the employee’s life, not just their time at work.",
+        "answer": ["Exactly.  Everyone is different.  A new program could be great, but let’s make sure we are not creating situations where a lot of people are excluded just because they have other responsibilities.  And also, let’s ask people what they want instead of telling them.  Just because Cross Fit is all the rage does not mean that’s what people want."]
+    }, {
+        "question": "Thanks, Henrietta, this is very helpful."
+    }],
+
+    "paul": [{
+        "question": "Paul, you’ve had a visible transformation in the last two years. You’ve lost a good deal of weight.  How did you do it?",
+        "answer": ["Well, it’s a combination of factors.  I treated it like a systems problem, really.  I looked at habits and patterns that I was keeping in place.  I thought about leverage points.  I tried to change patterns, and then reexamined them to see if there were any trade-offs that might cause other problems.  For example, I knew I could bike back and forth to work.  But it would mean getting up earlier and also coming home a little later.  That meant I didn’t have as much time at the office, so I had to bring home my laptop.  My kids want to see me after school before they go to bed at 9PM.  So instead of watching TV with my wife for an hour from 9–10PM, I had to work at night to make up the lost time.  That meant I had to find other time to spend with my wife, or she would feel like we weren’t bonding.  It required thinking through a lot of problems and deciding where to make changes.  Luckily I have a great support system."]
+    }, {
+        "question": "So how do you think you might motivate your employees to do something similar?  Our health assessment showed that 20% of our staff is at high risk for health problems like the ones you had not too long ago.  What would you suggest we do?  ",
+        "answer": ["I’d like to research some assessment tools we could use that would ask employees to look at all the factors in their lives:  stress, family, motivation, habits, etc., that might be keeping them in in unhealthy patterns. I think that we need to develop personalized plans, and support people in these plans, so that they can succeed.  Then we need to develop structures that reinforce the positive habits and discourage the negative ones.   Smoking, for instance.  We need to make it harder to smoke.  Make the smokers walk further away.  Make it less enjoyable, less social.  And then replace that with something that is enjoyable, and social.  "]
+    }, {
+        "question": "I really see where you are coming from with this.  Do you think we have the institutional support to do this?",
+        "answer": ["Well, I need to work on Chris.  That can be my task.  He is a lot like I was a few years ago.  But he doesn’t have the motivation to change. So that will be challenging.  We’ll have a conversation."]
+    }, {
+        "question": "Great.  I think we’re off to a good start."
+    }],
+
+    "chris": [{
+        "question": "Chris: So this is all the rage, huh?  Worker wellness?  You know me, Paul, I’m bottom line.  Is this going to pay off?",
+        "answer": ["<strong>Paul:</strong> Well, we’re going to do some analysis to see if it pays off financially, but I think if we do this right, it can have some long-term benefit for our work culture, health, and productivity.  There might be some painful short-term costs, though, that we can’t ignore.  We need to bite the bullet."]
+    }, {
+        "question": "Chris: What do you mean?",
+        "answer": ["<strong>Paul:</strong> Well, if the programs happen during the day, there will be some lost worker productivity.  We need to look at that.  And there will be some direct costs too.  But, as a friend, I also think that you need to look at some of your own behaviors and how they model an unhealthy work culture here.  Your hours, for instance.  I know you are the CEO and you are slammed all the time, but you have to look at how you deal with stress.  I don’t want you to end up in the ER like I did."]
+    }, {
+        "question": "Chris: I hear you, Paul, but I don’t really want to change.  I’m good.",
+        "answer": ["<strong>Paul:</strong> It’s interesting to hear you say that.  I’m not sure I agree. So how do you think we should respond to other employees who are also unmotivated to change?"]
+    }, {
+        "question": "Chris: Huh?  Well, we motivate them, I guess.  What works?  Prizes?  Extra vacation days? Money?",
+        "answer": ["<strong>Paul:</strong> We could consider all of those things, assuming people are motivated by them."]
+    }, {
+        "question": "Chris: Right. Anything else?",
+        "answer": ["<strong>Paul:</strong> I think we need to go deeper.  The personal benefits of being healthy.  The way you feel.  Energy. Fulfillment. We haven’t given this our best effort yet, but if we do, we could be onto something.   Let’s give it a try, Chris.  Go with me on this. "]
+    }]
+}

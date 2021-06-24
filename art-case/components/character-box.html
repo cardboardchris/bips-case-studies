@@ -1,0 +1,14 @@
+<a class="character-link fancybox" href="#{{characterName}}-{{boxType}}-modal">
+    <div class="character-image" style="background-image: url(assets/images/{{characterName}}.jpg);"></div>
+    <div class="character-hover-overlay"></div>
+    <span class="character-name">{{characterName}} {{characterLastInitial}}</span>
+    <span class="character-description">{{characterDescription}}</span>
+</a>
+<div class="character-modal" id="{{characterName}}-{{boxType}}-modal">
+    <div class="content-column">
+        <div class="character-image-large" style="background-image: url(assets/images/{{characterName}}.jpg);" alt=""></div>
+        <h2 class="character-name">{{characterName}} {{characterLastInitial}}</h2>
+        <h3 class="character-description">{{characterDescription}}</h3>
+        <interview character="{{characterName}}" questions="{{interviewsData}}" box-type="{{boxType}}"></interview>
+    </div>
+</div>

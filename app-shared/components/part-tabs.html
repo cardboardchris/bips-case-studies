@@ -1,0 +1,15 @@
+<div class="container tab-content" ng-transclude></div>
+<div class="page-overlay" ng-class="{'overlay': overlayVisible}"></div>
+<div class="main-menu-nav" ng-class="{'menu-slide': menuVisible}">
+    <a href="" class="expander" ng-click="toggleMenu()"><span class="genericon genericon-expand"></span></a>
+    <a href="" class="collapser" ng-hide="!menuVisible" ng-click="toggleMenu()"><span class="genericon genericon-collapse"></span></a>
+    <ul class="nav nav-part-tabs">
+        <span class="colorbar" ng-style="{left: colorBarLeft}"></span>
+        <li ng-repeat="pane in panes" ng-class="{active:pane.selected}">
+            <a href="" class="tab icon-{{pane.icon}}" ng-click="select($event, pane)">
+                <span class="icon"></span>
+                <br>{{pane.title}}<span class="subtitle">{{getMenuSubtitle(pane)}}</span>
+            </a>
+        </li>
+    </ul>
+</div>

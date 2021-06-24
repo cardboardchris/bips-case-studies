@@ -1,0 +1,74 @@
+.activity ul {
+    list-style: disc;
+    margin-left: 18px;
+}
+
+.activity ul li {
+    margin: 10px 0;
+}
+
+.icon-first-part .part-icon {
+    background-image: url(../images/stage1-large.png); 
+}
+
+.icon-second-part .part-icon {
+    background-image: url(../images/stage2-large.png); 
+}
+
+.icon-third-part .part-icon {
+    background-image: url(../images/stage3-large.png); 
+}
+
+.icon-fourth-part .part-icon {
+    background-image: url(../images/stage4-large.png); 
+}
+
+
+.main-menu-nav .nav a.icon-first-part .icon {
+    background-image: url(../images/stage1-sprite.png);
+}
+.main-menu-nav .nav a.icon-second-part .icon {
+    background-image: url(../images/stage2-sprite.png);
+}
+.main-menu-nav .nav a.icon-third-part .icon {
+    background-image: url(../images/stage3-sprite.png);
+}
+.main-menu-nav .nav a.icon-fourth-part .icon {
+    background-image: url(../images/stage4-sprite.png);
+}
+
+.single-column {
+    display: block;
+    height: 230px;
+    width: 230px;
+}
+
+
+@media screen and (max-width: 670px) {
+    .part-icon {
+        width: 64px;
+        height: 51px; 
+    }
+
+    .icon-first-part .part-icon {
+        background-image: url(../images/stage1-sprite.png); 
+    }
+
+    .icon-second-part .part-icon {
+        background-image: url(../images/stage2-sprite.png); 
+    }
+
+    .icon-third-part .part-icon {
+        background-image: url(../images/stage3-sprite.png); 
+    }
+
+    .icon-fourth-part .part-icon {
+        background-image: url(../images/stage4-sprite.png); 
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .single-column {
+        display: none;
+    }
+}

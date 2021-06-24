@@ -1,0 +1,14 @@
+<a class="character-link fancybox" href="#{{characterName}}-modal">
+    <div class="character-image" style="background-image: url(../../germany-refugees/{{perspective}}/assets/images/{{characterName}}.jpg);"></div>
+    <div class="character-hover-overlay"></div>
+    <span class="character-name">{{characterName}} {{characterLastInitial}}</span>
+    <span class="character-description">{{characterAge}}, {{characterDescription}}</span>
+</a>
+<div class="character-modal" id="{{characterName}}-modal">
+    <div class="content-column">
+        <div class="character-image-large" style="background-image: url(../../germany-refugees/{{perspective}}/assets/images/{{characterName}}.jpg);"></div>
+        <h2 class="character-name">{{characterName}} {{characterLastInitial}}</h2>
+        <h3 class="character-description">{{characterAge}}, {{characterDescription}}</h3>
+        <interview character="{{characterName}}" questions="{{interviewsData}}"></interview>
+    </div>
+</div>

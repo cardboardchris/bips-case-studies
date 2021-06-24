@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="caseStudyTabs">
+<meta charset="utf-8">
+<head>
+    <title>Health/Wellness Case Study</title>
+    <link href="https://learn.uncg.edu/courses/all/assets/css/html5reset.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="../lib/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../lib/mediaelement/build/mediaelementplayer.css" />
+    <link href="../app-shared/assets/css/style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather:300italic,400,400italic,700italic,700|Lato:900' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="../lib/angular/angular.js"></script>
+    <script type="text/javascript" src="../lib/angular/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="app/app.module.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="../lib/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="../lib/mediaelement/build/mediaelement-and-player.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".fancybox").fancybox({
+                minWidth: '80%',
+                maxWidth: 1000,
+                minHeight: 500,
+                maxHeight: '200',
+                scrolling: 'no',
+            });
+            // prevent overlay from appearing on resize
+            $(window).resize(function(){
+                if ($(window).width() < 670) {
+                    $('.page-overlay').removeClass('overlay');
+                }
+            });
+        });
+    </script>
+</head>
+<body ng-controller="TabsController as tabs">
+    <header>
+        <h1>systems thinking case study</h1>
+        <h3 class="perspective">health/wellness</h3>
+        <button class="menu-toggle" ng-click="toggleMenu()"><span class="menu-icon"></span></button>
+    </header>
+    <part-tabs>
+        <part data-title="intro" icon="intro" content="intro-view"></part>
+        <part data-title="stage 1" icon="first-part" content="part1-view"></part>
+        <part data-title="stage 2" icon="second-part" content="part2-view"></part>
+        <part data-title="stage 3" icon="third-part" content="part3-view"></part>
+        <part data-title="stage 4" icon="fourth-part" content="part4-view"></part>
+    </part-tabs>
+</body>
+</html>

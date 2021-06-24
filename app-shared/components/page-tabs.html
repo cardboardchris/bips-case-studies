@@ -1,0 +1,10 @@
+<div class="nav-page-arrows top-page-nav">
+    <a class="back" title="back" ng-show="active()>1" ng-click="prevPane(panes)"><span class="arrow-back"></span><span class="page-numbers">{{active()-1}}/{{totalPanes()}}</span></a>
+    <a class="next" title="next" ng-show="active()<totalPanes()" ng-click="nextPane()"><span class="page-numbers">{{active()+1}}/{{totalPanes()}}</span><span class="arrow-next"></span></a>
+</div>
+<div class="tab-content" ng-transclude></div>
+<div class="nav-page-arrows bottom-page-nav">
+        <a class="back" title="back" ng-show="active()>1" ng-click="prevPane(panes)"><span class="arrow-back"></span></a>
+        <span class="page-numbers">{{active()}}/{{totalPanes()}}</span>
+        <a class="next" title="next" ng-show="active()<totalPanes()" ng-click="nextPane()"><span class="arrow-next"></span></a>
+</div>
